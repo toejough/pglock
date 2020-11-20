@@ -1,3 +1,19 @@
+# XXX :rotating_light: DEPRECATION NOTICE :rotating_light: XXX
+
+This package was forked to fix some race conditions I'd found so that I could use it for my work, but we've moved on to using [Redlock](https://redislabs.com/redis-best-practices/communication-patterns/redlock/).  
+
+This package is behind the [original source](https://github.com/cirello-io/pglock), and is no longer being maintained.  Please either use the original, or switch to redlock, or fork and update this one.  DO NOT USE THIS PACKAGE AS-IS.
+
+:rotating_light:
+
+:rotating_light:
+
+:rotating_light:
+
+Ok, here's the original readme if you're still here.  but seriously, don't use this package.
+
+:skull_and_crossbones:
+
 # PostgreSQL Lock Client for Go
 
 [![GoDoc](https://godoc.org/cirello.io/pglock?status.svg)](https://godoc.org/cirello.io/pglock)
